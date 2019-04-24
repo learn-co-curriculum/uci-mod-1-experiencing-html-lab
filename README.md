@@ -49,8 +49,7 @@ we're trying to communicate.
 ### Content as a List in a Text File
 
 A problem with our _content_ is that it doesn't explicitly state anywhere that
-it's a list.  In the example, *you* see a list of songs. *we* see a list of
-songs. But a browser doesn't know what a "list" is. 
+it's a list.  In the example, we see a list of songs. But a browser doesn't know what a "list" is. 
 
 We need to help browser **know**  what a list is. The secret is to add "notes"
 or "breadcrumbs" to the content that tell the browser that it has list items
@@ -67,7 +66,7 @@ We're going to create an HTML list together.
 
 1. Create a new file called `my_list.html`
 2. Copy the contents of `my_list.txt` and paste them into `my_list.html`
-3. Use `command + s` to save the `my_list.html` file
+3. Save the `my_list.html` file
 4. In the Learn IDE, click on the **terminal** window and type `httpserver`.
 5. Hit enter to run the command
 
@@ -83,6 +82,8 @@ When `httpserver` starts, you'll be given a web site address.
 `httpserver` says:
 
 `Your server is running at 67.205.152.27:59976`
+
+> **ASIDE**: For our example, our server is running at 67.205.152.27:59976 but keep in mind that yours could be different.
 
 Open up another browser tab, paste that web site address and add the file I wish
 to view after a `/`. We want to view `my_list.html`, so in my example, I'll be
@@ -129,9 +130,9 @@ is still running!). You should see something like the following:
 
 In this step we added some HTML _markup_:
 
-* The `<li>` is an HTML **list item**  _opening tag_
-* The `</li>` `li` list item  _closing tag_
-* We would call this pair of opening and closing tags"an `li` tag"
+* The `<li>` is an HTML **list item** _opening tag_
+* The `</li>` is an HTML _closing tag_
+* We would call this pair of opening and closing tags a "`li` tag"
 * The whole length of text of _opening markup_ plus "wrapped" content plus
   _closing markup_ (`<li>...content...</li>`) is called "an HTML element;" or,
   more exactly, an `li element`
