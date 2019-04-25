@@ -1,6 +1,12 @@
 # Experiencing HTML Lab
 
-## Problem Statement
+## Learning Goals
+
+- Distinguish _markup_ from _content_
+- Define the difference between _source text_ and _rendered text_
+- Change the display of _content_ by providing _markup_
+
+## Introduction
 
 How do we go about writing text for the web? How is that different from the
 text that we write in a text file?  We're going to experience for ourselves how
@@ -11,18 +17,12 @@ you what to type. Don't focus on specific commands or taking notes. Everything
 will be covered thoroughly later. Instead, the goal of this exercise is to feel
 the joy of editing a file and seeing the change "out there."
 
-## Objectives
-
-1. Distinguish _markup_ from _content_
-2. Define the difference between _source text_ and _rendered text_
-3. Use HTML tags to change the display of _content_ by providing _markup_
-
 **NOTE:** We don't expect you to know _markup_, _content_, _source text_, or
 _rendered text_ yet. We'll be defining them in this lab.
 
-## Distinguish _markup_ from _content_
+## Instructions
 
-### Create a Text File With A List
+### Create a Text File with a List
 
 Launch the Learn IDE (use the Open IDE button) and create a new file called
 `my_list.txt`. The file extension suggests to humans and operating systems
@@ -43,26 +43,27 @@ English post-punk genre).
 "Girlfriend In a Coma"
 ```
 
-The material we typed into the file is called the _content_.  It's the thing
+The material we typed into the file is called the _content_. It's the thing
 we're trying to communicate.
 
 ### Content as a List in a Text File
 
 A problem with our _content_ is that it doesn't explicitly state anywhere that
-it's a list.  In the example, we see a list of songs. But a browser doesn't know what a "list" is. 
+it's a list. In the example, we see a list of songs. But a browser doesn't know
+what a "list" is. 
 
 We need to help browser **know**  what a list is. The secret is to add "notes"
 or "breadcrumbs" to the content that tell the browser that it has list items
-and that these items "go together" in a list.  To add these "notes" we surround
+and that these items "go together" in a list. To add these "notes" we surround
 the _content_ with bits of _markup_, with bits of HTML. 
 
 We will take the text content from our text file, paste it into a new HTML file
-and then we will add _markup_ so that a browser "sees" a list.  Let's write an
+and then we will add _markup_ so that a browser "sees" a list. Let's write an
 HTML file!
 
 ### Text Inside an HTML File
 
-We're going to create an HTML list together.
+We're going to create an HTML list together by following these steps:
 
 1. Create a new file called `my_list.html`
 2. Copy the contents of `my_list.txt` and paste them into `my_list.html`
@@ -83,7 +84,8 @@ When `httpserver` starts, you'll be given a web site address.
 
 `Your server is running at 67.205.152.27:59976`
 
-> **ASIDE**: For our example, our server is running at 67.205.152.27:59976 but keep in mind that yours could be different.
+> **ASIDE**: For our example, our server is running at 67.205.152.27:59976 but
+> keep in mind that yours could be different.
 
 Open up another browser tab, paste that web site address and add the file I wish
 to view after a `/`. We want to view `my_list.html`, so in my example, I'll be
@@ -236,7 +238,7 @@ with an appropriate title inside.
 
 `<h1>My Music List</h1>`
 
-### Ta-Dah!
+### Success!
 
 Admire your finished work!
 
